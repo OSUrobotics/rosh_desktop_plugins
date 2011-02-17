@@ -1,0 +1,15 @@
+<stack>
+  <description brief="rosh 'desktop' plugin">
+
+    ROSH plugins related to the desktop variant. 
+
+  </description>
+  <author>Maintained by Ken Conley</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rosh_desktop</url>
+  <depend stack="ros" /> <!-- roslib -->
+  <depend stack="rosh_robot" /> <!-- rosh, rosh_robot -->
+  <depend stack="visualization" /> <!-- rviz -->
+
+</stack>

@@ -1,0 +1,16 @@
+<package>
+  <description brief="rosh plugins for 'desktop' variant">
+
+     ROSH meta-plugin for the ROS 'desktop' variant.
+
+  </description>
+  <author>Ken Conley</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rosh_desktop</url>
+  <depend package="rosh"/>
+  <depend package="rosh_robot"/>
+  <depend package="rosh_visualization"/>  
+</package>
+
+

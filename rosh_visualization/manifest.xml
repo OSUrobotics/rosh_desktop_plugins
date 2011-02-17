@@ -1,0 +1,18 @@
+<package>
+  <description brief="rosh visualization stack plugin">
+
+     ROSH plugin for the visualization stack.
+
+  </description>
+  <author>Ken Conley</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rosh_visualization</url>
+
+  <depend package="roslib"/>
+  <depend package="rosh"/>
+  <depend package="rviz"/>
+
+</package>
+
+
