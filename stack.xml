@@ -9,7 +9,7 @@
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/rosh_desktop</url>
   <depend stack="ros" /> <!-- roslib -->
-  <depend stack="rosh_robot" /> <!-- rosh, rosh_robot -->
+  <depend stack="rosh_robot_plugins" /> <!-- rosh, rosh_robot -->
   <depend stack="visualization" /> <!-- rviz -->
 
 </stack>
