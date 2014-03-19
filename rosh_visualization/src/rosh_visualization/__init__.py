@@ -86,6 +86,6 @@ def show_camera_rviz_image_view(ns_obj):
     # retrieve ctx object
     ctx = ns_obj._config.ctx
     topic = roslib.names.ns_join(ns_obj._name, 'image_raw')
-    node = ctx.launch('rviz', 'image_view', remap={'image': topic})
-    print "running rviz image_viewer, this may be slow over a wireless network"
+    node = ctx.launch('image_view', 'image_view', remap={'image': topic})
+    print "running image_view, this may be slow over a wireless network"
     return node
