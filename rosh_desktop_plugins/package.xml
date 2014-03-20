@@ -1,6 +1,6 @@
 <package>
   <name>rosh_desktop_plugins</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <description>ROSH plugins related to the desktop variant.</description>
   <maintainer email="dan@lazewatsky.com">Dan Lazewatsky</maintainer>
 
