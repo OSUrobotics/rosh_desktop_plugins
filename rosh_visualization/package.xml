@@ -17,7 +17,7 @@
   <!-- Dependencies needed after this package is compiled. -->
   <run_depend>roslib</run_depend>
   <run_depend>rosh</run_depend>
-  <run_depend>rviz</run_depend>
+  <run_depend>image_view</run_depend>
 
   <!-- Dependencies needed only for running tests. -->
   <!-- <test_depend>roslib</test_depend> -->
