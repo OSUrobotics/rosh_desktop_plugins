@@ -2,8 +2,8 @@
 Changelog for package rosh_visualization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.3 (2014-08-17)
+------------------
 * A belated additional fix for `#1 <https://github.com/OSUrobotics/rosh_desktop_plugins/issues/1>`_ - make sure image_view is installed
 * Contributors: Dan Lazewatsky
 
