@@ -47,12 +47,24 @@ import rosh.impl.proc
 import rosh.plugin
 import rosh_common
 
+from .rqt import RQTPlugins
+
+_loaded_symbols = None
 def rosh_plugin_load(plugin_context, globals_=None):
     """
     Initialize rosh_common plugin
     """
+    global _loaded_symbols
+    if rosh.plugin.reentrant_load(_loaded_symbols, globals_):
+        return
+
     # make sure common is loaded first
     rosh.plugin.load_plugin('rosh_common', plugin_context, globals_=globals_)
+
+    _loaded_symbols = {
+        'rqt': RQTPlugins(plugin_context.ctx, plugin_context.rosh_lock)
+    }
+    rosh.plugin.globals_load(plugin_context, globals_, _loaded_symbols)
 
     plugin = rosh.plugin.PluginData()
     plugin.add_handler(rosh_common.PLUGIN_CAMERAS_SHOW, show_camera_rviz_image_view)
