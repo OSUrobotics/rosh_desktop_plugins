@@ -2,6 +2,9 @@
 Changelog for package rosh_desktop_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.0.3 (2014-08-17)
 ------------------
 
