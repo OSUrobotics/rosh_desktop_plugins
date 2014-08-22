@@ -2,8 +2,8 @@
 Changelog for package rosh_visualization
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.4 (2014-08-22)
+------------------
 * undo commit that happened on the wrong branch
 * Contributors: Dan Lazewatsky
 
